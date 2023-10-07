@@ -146,7 +146,8 @@ bitStringB_result = bitStringB(B, U)
 result = symmetricalDifferenceB(bitStringA_result, bitStringB_result)
 print("Бітова АΔВ: ", result)
 
-# з бів у ч. ; порівняння
+# з біт у ч. ; порівняння
+
 def bitStringToList(bitString, U):
     return [U[i] for i in range(len(U)) if bitString[i] == 1]
 
